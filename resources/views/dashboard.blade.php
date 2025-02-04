@@ -7,12 +7,12 @@
 <head>
 
     <meta charset="utf-8">
-    <title>Analytics | Steex - Admin & Dashboard Template</title>
+    <title>Dashboard | Steex - Admin & Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Minimal Admin & Dashboard Template" name="description">
     <meta content="Themesbrand" name="author">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link rel="shortcut icon" href="{{asset('steex/layouts/assets/images/favicon.ico')}}">
 
     <!-- Fonts css load -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -20,18 +20,18 @@
     <link id="fontsLink" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
 
     <!-- jsvectormap css -->
-    <link href="assets/libs/jsvectormap/css/jsvectormap.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('steex/layouts/assets/libs/jsvectormap/css/jsvectormap.min.css')}}" rel="stylesheet" type="text/css">
 
     <!-- Layout config Js -->
-    <script src="assets/js/layout.js"></script>
+    <script src="{{asset('steex/layouts/assets/js/layout.js')}}"></script>
     <!-- Bootstrap Css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('steex/layouts/assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
     <!-- Icons Css -->
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('steex/layouts/assets/css/icons.min.css')}}" rel="stylesheet" type="text/css">
     <!-- App Css-->
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('steex/layouts/assets/css/app.min.css')}}" rel="stylesheet" type="text/css">
     <!-- custom Css-->
-    <link href="assets/css/custom.min.css" rel="stylesheet" type="text/css">
+    <link href="{{asset('steex/css/custom.min.css')}}" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -46,18 +46,18 @@
     <div class="navbar-brand-box">
         <a href="index.html" class="logo logo-dark">
             <span class="logo-sm">
-                <img src="assets/images/logo-sm.png" alt="" height="22">
+                <img src="{{asset('steex/layouts/assets/images/logo-sm.png')}}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="assets/images/logo-dark.png" alt="" height="22">
+                <img src="{{asset('steex/layouts/assets/images/logo-dark.png')}}" alt="" height="22">
             </span>
         </a>
         <a href="index.html" class="logo logo-light">
             <span class="logo-sm">
-                <img src="assets/images/logo-sm.png" alt="" height="22">
+                <img src="{{asset('steex/layouts/assets/images/logo-sm.png')}}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="assets/images/logo-light.png" alt="" height="22">
+                <img src="{{asset('steex/layouts/assets/images/logo-light.png')}}" alt="" height="22">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-3xl header-item float-end btn-vertical-sm-hover" id="vertical-hover">
@@ -827,19 +827,19 @@
                         <div class="navbar-brand-box horizontal-logo">
                             <a href="index.html" class="logo logo-dark">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                                    <img src="{{asset('steex/layouts/assets/images/logo-sm.png')}}" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-dark.png" alt="" height="22">
+                                    <img src="{{asset('steex/layouts/assets/images/logo-dark.png')}}" alt="" height="22">
                                 </span>
                             </a>
 
                             <a href="index.html" class="logo logo-light">
                                 <span class="logo-sm">
-                                    <img src="assets/images/logo-sm.png" alt="" height="22">
+                                    <img src="{{asset('steex/layouts/assets/images/logo-sm.png')}}" alt="" height="22">
                                 </span>
                                 <span class="logo-lg">
-                                    <img src="assets/images/logo-light.png" alt="" height="22">
+                                    <img src="{{asset('steex/layouts/assets/images/logo-light.png')}}" alt="" height="22">
                                 </span>
                             </a>
                         </div>
@@ -901,7 +901,7 @@
                                         <!-- item -->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                             <div class="d-flex">
-                                                <img src="assets/images/users/avatar-2.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <img src="{{asset('steex/layouts/assets/images/users/avatar-2.jpg')}}" class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                 <div class="flex-1">
                                                     <h6 class="m-0">Angela Bernier</h6>
                                                     <span class="fs-11 mb-0 text-muted">Manager</span>
@@ -911,7 +911,7 @@
                                         <!-- item -->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                             <div class="d-flex">
-                                                <img src="assets/images/users/avatar-3.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <img src="{{asset('steex/layouts/assets/images/users/avatar-3.jpg')}}" class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                 <div class="flex-1">
                                                     <h6 class="m-0">David Grasso</h6>
                                                     <span class="fs-11 mb-0 text-muted">Web Designer</span>
@@ -921,7 +921,7 @@
                                         <!-- item -->
                                         <a href="javascript:void(0);" class="dropdown-item notify-item py-2">
                                             <div class="d-flex">
-                                                <img src="assets/images/users/avatar-5.jpg" class="me-3 rounded-circle avatar-xs" alt="user-pic">
+                                                <img src="{{asset('steex/layouts/assets/images/users/avatar-5.jpg')}}" class="me-3 rounded-circle avatar-xs" alt="user-pic">
                                                 <div class="flex-1">
                                                     <h6 class="m-0">Mike Bunch</h6>
                                                     <span class="fs-11 mb-0 text-muted">React Developer</span>
@@ -961,19 +961,19 @@
                                     <div class="row g-0">
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/github.png" alt="Github">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/github.png')}}" alt="Github">
                                                 <span>GitHub</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/bitbucket.png')}}" alt="bitbucket">
                                                 <span>Bitbucket</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/dribbble.png')}}" alt="dribbble">
                                                 <span>Dribbble</span>
                                             </a>
                                         </div>
@@ -982,19 +982,19 @@
                                     <div class="row g-0">
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/dropbox.png" alt="dropbox">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/dropbox.png')}}" alt="dropbox">
                                                 <span>Dropbox</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/mail_chimp.png')}}" alt="mail_chimp">
                                                 <span>Mail Chimp</span>
                                             </a>
                                         </div>
                                         <div class="col">
                                             <a class="dropdown-icon-item" href="#!">
-                                                <img src="assets/images/brands/slack.png" alt="slack">
+                                                <img src="{{asset('steex/layouts/assets/images/brands/slack.png')}}" alt="slack">
                                                 <span>Slack</span>
                                             </a>
                                         </div>
@@ -1005,54 +1005,54 @@
 
                         <div class="dropdown ms-1 topbar-head-dropdown header-item">
                             <button type="button" class="btn btn-icon btn-topbar btn-ghost-secondary rounded-circle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id="header-lang-img" src="assets/images/flags/us.svg" alt="Header Language" height="20" class="rounded">
+                                <img id="header-lang-img" src="{{asset('steex/layouts/assets/images/flags/us.svg')}}" alt="Header Language" height="20" class="rounded">
                             </button>
                             <div class="dropdown-menu dropdown-menu-end">
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language py-2" data-lang="en" title="English">
-                                    <img src="assets/images/flags/us.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/us.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">English</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp" title="Spanish">
-                                    <img src="assets/images/flags/spain.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/spain.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">Española</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr" title="German">
-                                    <img src="assets/images/flags/germany.svg" alt="user-image" class="me-2 rounded" height="18"> <span class="align-middle">Deutsche</span>
+                                    <img src="{{asset('steex/layouts/assets/images/flags/germany.svg')}}" alt="user-image" class="me-2 rounded" height="18"> <span class="align-middle">Deutsche</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it" title="Italian">
-                                    <img src="assets/images/flags/italy.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/italy.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">Italiana</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru" title="Russian">
-                                    <img src="assets/images/flags/russia.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/russia.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">русский</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ch" title="Chinese">
-                                    <img src="assets/images/flags/china.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/china.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">中国人</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="fr" title="French">
-                                    <img src="assets/images/flags/french.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/french.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">français</span>
                                 </a>
 
                                 <!-- item-->
                                 <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ar" title="Arabic">
-                                    <img src="assets/images/flags/ae.svg" alt="user-image" class="me-2 rounded" height="18">
+                                    <img src="{{asset('steex/layouts/assets/images/flags/ae.svg')}}" alt="user-image" class="me-2 rounded" height="18">
                                     <span class="align-middle">عربي</span>
                                 </a>
                             </div>
@@ -1090,7 +1090,7 @@
                                             <div class="d-flex">
                                                 <div class="avatar-sm me-3 flex-shrink-0">
                                                     <div class="avatar-title bg-light rounded">
-                                                        <img src="assets/images/products/32/img-1.png" class="avatar-xs" alt="user-pic">
+                                                        <img src="{{asset('steex/layouts/assets/images/products/32/img-1.png')}}" class="avatar-xs" alt="user-pic">
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -1116,7 +1116,7 @@
                                             <div class="d-flex">
                                                 <div class="avatar-sm me-3 flex-shrink-0">
                                                     <div class="avatar-title bg-light rounded">
-                                                        <img src="assets/images/products/32/img-5.png" class="avatar-xs" alt="user-pic">
+                                                        <img src="{{asset('steex/layouts/assets/images/products/32/img-5.png')}}" class="avatar-xs" alt="user-pic">
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -1142,7 +1142,7 @@
                                             <div class="d-flex">
                                                 <div class="avatar-sm me-3 flex-shrink-0">
                                                     <div class="avatar-title bg-light rounded">
-                                                        <img src="assets/images/products/32/img-10.png" class="avatar-xs" alt="user-pic">
+                                                        <img src="{{asset('steex/layouts/assets/images/products/32/img-10.png')}}" class="avatar-xs" alt="user-pic">
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -1168,7 +1168,7 @@
                                             <div class="d-flex">
                                                 <div class="avatar-sm me-3 flex-shrink-0">
                                                     <div class="avatar-title bg-light rounded">
-                                                        <img src="assets/images/products/32/img-11.png" class="avatar-xs" alt="user-pic">
+                                                        <img src="{{asset('steex/layouts/assets/images/products/32/img-11.png')}}" class="avatar-xs" alt="user-pic">
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -1194,7 +1194,7 @@
                                             <div class="d-flex">
                                                 <div class="avatar-sm me-3 flex-shrink-0">
                                                     <div class="avatar-title bg-light rounded">
-                                                        <img src="assets/images/products/32/img-8.png" class="avatar-xs" alt="user-pic">
+                                                        <img src="{{asset('steex/layouts/assets/images/products/32/img-8.png')}}" class="avatar-xs" alt="user-pic">
                                                     </div>
                                                 </div>
                                                 <div class="flex-grow-1">
@@ -1332,7 +1332,7 @@
                                         <div class="text-reset notification-item d-block dropdown-item position-relative unread-message">
                                             <div class="d-flex">
                                                 <div class="position-relative me-3 flex-shrink-0">
-                                                    <img src="assets/images/users/32/avatar-2.jpg" class="rounded-circle avatar-xs" alt="user-pic">
+                                                    <img src="{{asset('steex/layouts/assets/images/users/32/avatar-2.jpg')}}" class="rounded-circle avatar-xs" alt="user-pic">
                                                     <span class="active-badge position-absolute start-100 translate-middle p-1 bg-success rounded-circle">
                                                         <span class="visually-hidden">New alerts</span>
                                                     </span>
@@ -1388,7 +1388,7 @@
                                             <div class="d-flex">
 
                                                 <div class="position-relative me-3 flex-shrink-0">
-                                                    <img src="assets/images/users/32/avatar-8.jpg" class="rounded-circle avatar-xs" alt="user-pic">
+                                                    <img src="{{asset('steex/layouts/assets/images/users/32/avatar-8.jpg')}}" class="rounded-circle avatar-xs" alt="user-pic">
                                                     <span class="active-badge position-absolute start-100 translate-middle p-1 bg-warning rounded-circle">
                                                         <span class="visually-hidden">New alerts</span>
                                                     </span>
@@ -1426,7 +1426,7 @@
                         <div class="dropdown ms-sm-3 header-item topbar-user">
                             <button type="button" class="btn shadow-none" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="d-flex align-items-center">
-                                    <img class="rounded-circle header-profile-user" src="assets/images/users/32/avatar-1.jpg" alt="Header Avatar">
+                                    <img class="rounded-circle header-profile-user" src="{{asset('steex/layouts/assets/images/users/32/avatar-1.jpg')}}" alt="Header Avatar">
                                     <span class="text-start ms-xl-2">
                                         <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">Richard Marshall</span>
                                         <span class="d-none d-xl-block ms-1 fs-sm user-name-sub-text">Founder</span>
@@ -1721,7 +1721,7 @@
                                             <tbody class="list">
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/chrome.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/chrome.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Google Chrome</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1733,7 +1733,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/firefox.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/firefox.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Firefox</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1745,7 +1745,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/safari.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/safari.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Safari</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1757,7 +1757,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/opera.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/opera.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Opera</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1769,7 +1769,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/microsoft.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/microsoft.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Microsoft Edge</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1781,7 +1781,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/microsoft2.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/microsoft2.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Internet Explorer</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -1793,7 +1793,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <img src="assets/images/brands/chromium.png" alt="" class="avatar-xxs">
+                                                        <img src="{{asset('steex/layouts/assets/images/brands/chromium.png')}}" alt="" class="avatar-xxs">
                                                         <span class="ms-1 browsers">Chromium</span>
                                                     </td>
                                                     <td class="click text-center">
@@ -2317,7 +2317,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme01" name="data-theme" type="radio" value="default" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme01">
-                                    <img src="assets/images/custom-theme/light-mode.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/light-mode.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Default</h5>
@@ -2326,7 +2326,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme02" name="data-theme" type="radio" value="material" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme02">
-                                    <img src="assets/images/custom-theme/material.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/material.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Material</h5>
@@ -2335,7 +2335,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme03" name="data-theme" type="radio" value="creative" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme03">
-                                    <img src="assets/images/custom-theme/creative.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/creative.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Creative</h5>
@@ -2344,7 +2344,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme04" name="data-theme" type="radio" value="minimal" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme04">
-                                    <img src="assets/images/custom-theme/minimal.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/minimal.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Minimal</h5>
@@ -2353,7 +2353,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme05" name="data-theme" type="radio" value="modern" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme05">
-                                    <img src="assets/images/custom-theme/modern.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/modern.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Modern</h5>
@@ -2363,7 +2363,7 @@
                             <div class="form-check card-radio">
                                 <input id="customizer-theme06" name="data-theme" type="radio" value="interaction" class="form-check-input">
                                 <label class="form-check-label p-0" for="customizer-theme06">
-                                    <img src="assets/images/custom-theme/interaction.png" alt="" class="img-fluid">
+                                    <img src="{{asset('steex/layouts/assets/images/custom-theme/interaction.png')}}" alt="" class="img-fluid">
                                 </label>
                             </div>
                             <h5 class="fs-sm text-center fw-medium mt-2">Interaction</h5>
@@ -2379,7 +2379,7 @@
                                 <div class="form-check card-radio">
                                     <input class="form-check-input" type="radio" name="data-bs-theme" id="layout-mode-light" value="light">
                                     <label class="form-check-label p-0 bg-transparent" for="layout-mode-light">
-                                        <img src="assets/images/custom-theme/light-mode.png" alt="" class="img-fluid">
+                                        <img src="{{asset('steex/layouts/assets/images/custom-theme/light-mode.png')}}" alt="" class="img-fluid">
                                     </label>
                                 </div>
                                 <h5 class="fs-sm text-center fw-medium mt-2">Light</h5>
@@ -2389,7 +2389,7 @@
                                 <div class="form-check card-radio dark">
                                     <input class="form-check-input" type="radio" name="data-bs-theme" id="layout-mode-dark" value="dark">
                                     <label class="form-check-label p-0 bg-transparent" for="layout-mode-dark">
-                                        <img src="assets/images/custom-theme/dark-mode.png" alt="" class="img-fluid">
+                                        <img src="{{asset('steex/layouts/assets/images/custom-theme/dark-mode.png')}}" alt="" class="img-fluid">
                                     </label>
                                 </div>
                                 <h5 class="fs-sm text-center fw-medium mt-2">Dark</h5>
@@ -2400,7 +2400,7 @@
                                     <input class="form-check-input" type="radio" name="data-bs-theme" id="layout-mode-brand" value="brand" disabled>
                                     <h6 class="text-danger fs-18 lh-base text-center position-absolute top-50 start-50 translate-middle z-1 mb-0">Coming Soon</h6>
                                     <label class="form-check-label cursor-none p-0 bg-transparent opacity-75" for="layout-mode-brand">
-                                        <img src="assets/images/custom-theme/brand-mode.png" alt="" class="img-fluid">
+                                        <img src="{{asset('steex/layouts/assets/images/custom-theme/brand-mode.png')}}" alt="" class="img-fluid">
                                     </label>
                                 </div>
                                 <h5 class="fs-sm text-center fw-medium mt-2">Brand</h5>
@@ -2819,26 +2819,26 @@
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-01" value="img-1">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-01">
-                                    <img src="assets/images/sidebar/img-sm-1.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('steex/layouts/assets/images/sidebar/img-sm-1.jpg')}}" alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
 
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-02" value="img-2">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-02">
-                                    <img src="assets/images/sidebar/img-sm-2.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('steex/layouts/assets/images/sidebar/img-sm-2.jpg')}}" alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-03" value="img-3">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-03">
-                                    <img src="assets/images/sidebar/img-sm-3.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('steex/layouts/assets/images/sidebar/img-sm-3.jpg')}}" alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                             <div class="form-check sidebar-setting card-radio">
                                 <input class="form-check-input" type="radio" name="data-sidebar-image" id="sidebarimg-04" value="img-4">
                                 <label class="form-check-label p-0 avatar-sm h-auto" for="sidebarimg-04">
-                                    <img src="assets/images/sidebar/img-sm-4.jpg" alt="" class="avatar-md w-auto object-cover">
+                                    <img src="{{asset('steex/layouts/assets/images/sidebar/img-sm-4.jpg')}}" alt="" class="avatar-md w-auto object-cover">
                                 </label>
                             </div>
                         </div>
@@ -2924,27 +2924,27 @@
     </div>
 
     <!-- JAVASCRIPT -->
-    <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/libs/simplebar/simplebar.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
+    <script src="{{asset('steex/layouts/assets/libs/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{asset('steex/layouts/assets/libs/simplebar/simplebar.min.js')}}"></script>
+    <script src="{{asset('steex/layouts/assets/js/plugins.js')}}"></script>
 
     <!-- apexcharts -->
-    <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+    <script src="{{asset('steex/layouts/assets/libs/apexcharts/apexcharts.min.js')}}"></script>
 
     <!-- Echarts -->
-    <script src="assets/libs/echarts/echarts.min.js"></script>
+    <script src="{{asset('steex/layouts/assets/libs/echarts/echarts.min.js')}}"></script>
 
     <!-- Vector map-->
-    <script src="assets/libs/jsvectormap/js/jsvectormap.min.js"></script>
-    <script src="assets/libs/jsvectormap/maps/world-merc.js"></script>
+    <script src="{{asset('steex/layouts/assets/libs/jsvectormap/js/jsvectormap.min.js')}}"></script>
+    <script src="{{asset('steex/layouts/assets/libs/jsvectormap/maps/world-merc.js')}}"></script>
 
-    <script src="assets/libs/list.js/list.min.js"></script>
+    <script src="{{asset('steex/layouts/assets/libs/list.js/list.min.js')}}"></script>
 
     <!-- dashboard-analytics init js -->
-    <script src="assets/js/pages/dashboard-analytics.init.js"></script>
+    <script src="{{asset('steex/layouts/assets/js/pages/dashboard-analytics.init.js')}}"></script>
 
     <!-- App js -->
-    <script src="assets/js/app.js"></script>
+    <script src="{{asset('steex/layouts/assets/js/app.js')}}"></script>
 </body>
 
 
